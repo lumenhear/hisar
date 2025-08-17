@@ -1,0 +1,68 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9fafc;
+  color: #333;
+}
+
+/* Navbar */
+.premium-navbar {
+  background: linear-gradient(90deg, #0052d4, #4364f7, #6fb1fc);
+}
+
+/* Section title */
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #0052d4;
+}
+
+/* Cards */
+.form-card {
+  border-radius: 16px;
+  background: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+.form-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #0052d4, #4364f7);
+  border: none;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4364f7, #6fb1fc);
+}
+
+/* Footer */
+.premium-footer {
+  background: #0052d4;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* WhatsApp button */
+#whatsapp-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  background: #25D366;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 26px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+#whatsapp-btn:hover {
+  transform: scale(1.1);
+}
