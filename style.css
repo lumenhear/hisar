@@ -62,7 +62,14 @@ body {
   font-size: 26px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   transition: transform 0.2s;
+  animation: pulse 2s infinite;
 }
 #whatsapp-btn:hover {
   transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
 }
